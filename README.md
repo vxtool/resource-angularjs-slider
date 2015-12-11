@@ -1,1 +1,2 @@
-# resource-aria-accordion
+# resource-angular-slider
+
