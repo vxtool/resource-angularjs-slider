@@ -1,0 +1,9 @@
+<div class="slider-box">
+  <div class="slider">
+    <ul>
+      <li class="item" ng-repeat="item in items"><span>{{ item.title }}</span></li> {{ itemHeight }}
+    </ul>
+    <div class="slider-btn prev" ng-click="sliderService.goToPrevious($event)"><i class="fa fa-chevron-left"></i></div>
+    <div class="slider-btn next" ng-click="sliderService.goToNext($event)"><i class="fa fa-chevron-right"></i></div>
+  </div>
+</div>
