@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="pt-BR" xml:lang="pt-BR">
+<html class="no-js" lang="pt-BR" xml:lang="pt-BR" ng-app="slider">
 	<head>
 		<meta charset="utf-8">
 		<title>Slider with AngularJS</title>
@@ -10,8 +10,18 @@
 	      var tagHtml = document.getElementsByTagName("html")[0];
 	          tagHtml.className = tagHtml.className.replace('no-js', 'js');
 	    </script>
+      <link rel="stylesheet" type="text/css" href="source/css/style.css">
 	</head>
-	<body>
+	<body ng-controller="IndexController">
+    <div class="display" >
+      <slider width="600" height="400"></slider>
+    </div>
 
+    <script src="node_modules/angular/angular.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="node_modules/angular-sanitize/angular-sanitize.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="source/js/app.js" type="text/javascript" charset="utf-8"></script>
+    <script src="source/js/slider/sliderDirective.js" type="text/javascript" charset="utf-8"></script>
+    <script src="source/js/slider/sliderService.js" type="text/javascript" charset="utf-8"></script>
+    <script src="source/js/slider/indexController.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>
