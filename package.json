@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resource-solutions/resource-angularjs-slider.git"
+    "url": "git+https://github.com/descco-tools/resource-angularjs-slider.git"
   },
   "keywords": [
     "angularjs",
     "resource",
     "filter"
   ],
-  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://hemersonvianna.io)",
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://descco.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/resource-solutions/resource-angularjs-slider/issues"
+    "url": "https://github.com/descco-tools/resource-angularjs-slider/issues"
   },
-  "homepage": "https://github.com/resource-solutions/resource-angularjs-slider#readme",
+  "homepage": "https://github.com/descco-tools/resource-angularjs-slider#readme",
   "devDependencies": {
     "angular": "^1.5.0",
     "angular-sanitize": "^1.5.0"
