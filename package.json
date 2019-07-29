@@ -1,6 +1,6 @@
 {
   "name": "resource-angularjs-slider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Slider with AngularJS",
   "main": "index.js",
   "scripts": {
